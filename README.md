@@ -61,9 +61,3 @@ Then use the curl to test
 
 	$ curl 'http://127.0.0.1:8000/echo' -v
 
-# Install on OpenWrt
-    opkg update
-    opkg list | grep NimbleServer
-    opkg install NimbleServer-nossl
-
-If the install command fails, you can [compile it yourself](/BUILDOPENWRT.md).
